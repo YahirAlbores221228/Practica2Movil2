@@ -3,6 +3,7 @@ import 'package:proyect_flutter/screen/products.dart';
 import 'contacts.dart';
 import 'register.dart';
 import 'products.dart';
+import 'catalog.dart';
 class Home extends StatelessWidget {
   const Home({super.key});
 
@@ -66,6 +67,15 @@ class Home extends StatelessWidget {
                       context,
                       MaterialPageRoute(
                           builder: (context) => Products()));
+                },
+              ),
+              ListTile(
+                title: const Text('Catalogo de productos'),
+                onTap: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => CatalogScreen()));
                 },
               ),
             ],

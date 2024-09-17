@@ -44,7 +44,7 @@ class ContactsScreen extends StatelessWidget {
                   onPressed: () async {
                     final phoneNumber =
                         Uri.parse('tel:${entry.value['phone']}');
-                    if (await canLaunchUrl(phoneNumber)) {
+                    if (await launchUrl(phoneNumber)) {
                       await launchUrl(phoneNumber);
                     } else {
                       throw 'Could not launch $phoneNumber';
