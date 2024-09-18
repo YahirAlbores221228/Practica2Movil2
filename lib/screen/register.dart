@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 class Registers extends StatefulWidget {
   const Registers({super.key});
@@ -92,14 +90,6 @@ class RegisterState extends State<Registers> {
                   ),
                 ],
               ),
-              child: IconButton(
-                  icon: SvgPicture.asset('assets/iconsgit2.svg',
-                      height: 40, width: 40),
-                  iconSize: 40,
-                  padding: const EdgeInsets.all(10),
-                  onPressed: () {
-                    launch("https://github.com/YahirAlbores221228/Api_vivero");
-                  }),
             )
           ],
         ),

@@ -31,7 +31,7 @@ class Catalog extends State<CatalogScreen> {
 
   Future<void> fetchProducts() async {
     final response = await http
-        .get(Uri.parse('http://192.168.100.6:3000/floreria/catalogproducts'));
+        .get(Uri.parse('http://192.168.201.215:3000/floreria/catalogproducts'));
 
     if (response.statusCode == 200) {
       List<dynamic> data = json.decode(response.body);
