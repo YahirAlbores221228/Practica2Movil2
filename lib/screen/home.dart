@@ -52,7 +52,7 @@ class Home extends StatelessWidget {
                 },
               ),
               ListTile(
-                title: const Text('Contactos'),
+                title: const Text('Informacion de contacto'),
                 onTap: () {
                   Navigator.push(
                       context,

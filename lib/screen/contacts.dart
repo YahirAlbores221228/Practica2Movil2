@@ -83,7 +83,7 @@ class _ContactsScreenState extends State<ContactsScreen> {
     return Scaffold(
         appBar: AppBar(
           //Barra superior de la pantalla
-          title: const Text('Contactos',
+          title: const Text('Contacto',
               style: TextStyle(
                   color: Colors.white,
                   fontSize: 18,

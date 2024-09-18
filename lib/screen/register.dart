@@ -52,7 +52,7 @@ class RegisterState extends State<Registers> {
                     borderRadius: BorderRadius.all(Radius.circular(10)),
                     borderSide: BorderSide(color: Colors.orange),
                   ),
-                  labelText: 'Inserta tu nombre',
+                  labelText: 'Ingrese algun texto',
                   labelStyle: TextStyle(color: Colors.grey, fontSize: 16),
                 ),
               ),
